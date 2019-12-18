@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin:0;
+}
+ion-toolbar{
+  color: #fff;
+  font-family: FangSong;
+  letter-spacing: 5px;
+}
+div{
+  background-color: rgb(234, 90, 55);
+  color: white;
+  position: fixed;
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 9999;
+  bottom: 8%;
+  right: 8%;
+  text-align: center;
+  font-size: 60px;
+}

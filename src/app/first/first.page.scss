@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 500px !important;
+    height: auto !important;
+}
+div{
+    background-color: skyblue;
+    color:rgb(234, 90, 55);
+    width:50%;
+    overflow: hidden;
+    z-index: 9999;
+    position: fixed;
+    text-align:center;
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 3px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    top: 73%;
+    font-family: "fangsong";
+    letter-spacing: 8px;
+}
+   

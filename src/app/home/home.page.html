@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      小小社区
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides pager="true" [options]="slidesOpts">
+        <ion-slide *ngFor="let home of home_img;">
+          <img src="{{home.src}}" alt="">
+        </ion-slide>
+    </ion-slides>
+    <ul>
+      <li *ngFor="let li of li_img;let i = index"><img src="{{li.src}}" style="border-radius:50%" (click)="enter(i)"></li>
+    </ul>
+</ion-content>
